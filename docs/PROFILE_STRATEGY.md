@@ -2,21 +2,13 @@
 
 ## 1. Vấn đề cốt lõi về định vị (Strategic Positioning)
 
-### A. Có nên đưa WordPress vào Profile không?
-**Câu trả lời:** **CÓ, nhưng KHÔNG ĐƯỢC ĐỂ CHUNG VỚI HERO TITLE AI / PYTHON**.
-
-* **Tại sao không để chung:** 
-  - Nếu bạn để title: *"Python AI Engineer & WordPress Developer"* -> Khách hàng quốc tế (US/EU) sẽ xếp bạn vào nhóm "Generalist giá rẻ", làm mọi thứ một chút, không chuyên sâu. Giá trị deal sẽ bị kéo tụt xuống $15 - $25/h.
-* **Cách đóng gói chuẩn quốc tế:**
-  1. **Main Positioning (Primary):** `AI Systems & Python Engineer | RAG, Data Pipelines & Production MVPs` (Tập trung Startup, Founder, Tech Leads cần giải pháp AI, Backend tải cao, Scraping, Automation).
-  2. **Specialized Profile (Secondary Offer trên Upwork & Service Tab trên Portfolio):** 
-     - **Tên dịch vụ:** `Enterprise WordPress & Headless CMS Engineering`
-     - **Tránh xa:** *"Cài theme dạo", "Sửa lỗi CSS WordPress $10"*.
-     - **Đánh mạnh vào:**
-       - Headless WordPress (WordPress Backend API + Next.js Frontend).
-       - Custom Plugin Development, REST API / Webhook integrations.
-       - Tối ưu hiệu năng Core Web Vitals, Database Query Optimization (MySQL/MariaDB), High Traffic Caching.
-       - LMS & Digital Product Systems (TutorLMS, WooCommerce Custom Flow, Payment Gateway integrations).
+### A. Hồ sơ năng lực thực tế & Trung thực (No Fake Experience)
+* **WordPress Engineering (Freelance từ 2023 - Nay):** Xây dựng các hệ thống Headless WordPress (Decoupled Next.js + WP REST/GraphQL), Custom Plugins, LMS & Digital Commerce (TutorLMS/WooCommerce/SePay), Tối ưu database MariaDB, Caching Redis, và Linux VPS Deployment (Docker/Coolify).
+* **AI Systems & Data Engineering (Từ 06/2025 - Nay):** Tập trung vào Applied AI thực chiến: Hybrid RAG (BM25 + Dense Qdrant), Ragas Evaluation, Multi-Agent Tool execution with Tenacity retry, Event Streaming Kafka/Redpanda sang ClickHouse OLAP, Fine-tuning Qwen2.5/Llama-3.2 qua QLoRA/vLLM, và A/B Testing có kiểm định Z-test.
+* **Google Certified Credentials (Coursera Verified):**
+  1. *Google Project Management: Professional Certificate* (Agile/Scrum, Sprint Planning, Risk Management, Documentation).
+  2. *Google Digital Marketing & E-Commerce: Professional Certificate* (Funnels, Conversion Optimization, Automation, Analytics).
+* **Lợi thế cạnh tranh độc nhất (Unfair Advantage):** Không chỉ viết code kỹ thuật mà còn hiểu sâu **Product Management (Agile) + Business Funnel / Marketing**, giúp sản phẩm AI và Web của khách hàng đạt hiệu quả kinh doanh và ROI thực tế thay vì chỉ là bài toán kỹ thuật chay.
 
 ---
 

@@ -26,8 +26,9 @@ I build production-grade AI systems, high-throughput data scrapers, and scalable
 - Modern backend architectures using FastAPI/Python + Next.js App Router frontend.
 - Clean containerization (Docker, Coolify, VPS deployment) with CI/CD and secure auth.
 
-🛠 CORE STACK:
-Python (FastAPI, PyMuPDF, Scrapy, Playwright), TypeScript, Next.js, PostgreSQL, Redis, Docker, Coolify, Linux VPS.
+🛠 CORE STACK & CREDENTIALS:
+- Technical: Python (FastAPI, PyMuPDF, Scrapy, Playwright), TypeScript, Next.js, PostgreSQL, Redis, Docker, Coolify, Linux VPS.
+- Credentials: Google Certified in Project Management (Agile/Scrum) & Digital Marketing/E-Commerce (Coursera).
 
 📂 PROVEN TRACK RECORD:
 - Scientific Paper RAG & Extraction Pipeline (Sub-second extraction, 99.2% accuracy).
