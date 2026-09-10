@@ -53,7 +53,7 @@ Tập hợp 5 dự án thực chiến chuẩn quốc tế, chứng minh năng l�
 
 ---
 
-## ⚡ Project 5: Headless Digital Store & LMS Platform (Khokey / Enterprise CMS)
+## ⚡ Project 5: Headless Digital Store & LMS Platform (Confidential Client / Enterprise CMS)
 * **Category:** Headless CMS / E-Commerce / Performance Engineering
 * **Stack:** Next.js (App Router), TypeScript, Tailwind CSS, WordPress (Headless REST/GraphQL), FastAPI, Redis, MariaDB
 * **Problem:** Monolithic CMS truyền thống bị chậm (Lighthouse < 60), dễ tắc nghẽn database khi traffic tăng cao và giao diện khó tùy biến.

@@ -38,7 +38,7 @@ Thay thế phần Skills dạng list chung chung bằng 4 Offerings cụ thể:
 1. **SCIDEX — Document & Paper Extraction Pipeline** (RAG, PyMuPDF, Schema Validation).
 2. **CX Agent Platform — Multi-Channel Conversational AI** (FastAPI, Webhooks, Supabase).
 3. **Enterprise Data Harvester** (Distributed Scraper, Anti-Bot Bypassing, Redis Queue).
-4. **Khokey Digital Store & LMS** (Headless Next.js + WordPress/FastAPI, 98 Lighthouse Score).
+4. **Enterprise Headless Digital Store & LMS** (Headless Next.js + WordPress/FastAPI, 98 Lighthouse Score).
 
 ---
 

@@ -29,7 +29,7 @@
   1. *SCIDEX*: PDF/Scientific Paper Parser + Structured Extraction Pipeline.
   2. *CX Agent Platform*: Multi-Channel LLM Customer Engagement.
   3. *Data Harvester*: Distributed Scraping & Anti-bot Bypassing Engine.
-  4. *Khokey / Headless E-Commerce*: LMS & Digital Products with Next.js + FastAPI/WordPress.
+  4. *Headless Digital Commerce & LMS*: Decoupled Store with Next.js + FastAPI/WordPress.
   * Mỗi dự án có: Architecture Diagram (SVG/Mermaid) + README chuẩn + Loom 60s.
 
 * **Ngày 4 – 6: Đại tu Landing Page `tuanphilip.github.io`**
