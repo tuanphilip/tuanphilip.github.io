@@ -37,7 +37,7 @@ function initThemeToggle() {
     
     document.documentElement.setAttribute('data-theme', newTheme);
     localStorage.setItem('theme', newTheme);
-    showToast(`Đã chuyển sang giao diện ${newTheme === 'light' ? 'Sáng' : 'Tối'}`);
+    showToast(`Switched to ${newTheme === 'light' ? 'Light' : 'Dark'} mode`);
   });
 }
 
@@ -167,10 +167,10 @@ function initTypingEffect() {
   if (!typingElement) return;
 
   const roles = [
-    'Senior Full-Stack Engineer',
-    'Cloud & DevOps Architect',
-    'AI & Automation Specialist',
-    'Open Source Contributor'
+    'AI Systems & Python Engineering',
+    'Hybrid RAG & Multi-Agent Workflows',
+    'High-Throughput Scraping & Pipelines',
+    'Headless WordPress & Next.js Architecture'
   ];
 
   let roleIndex = 0;
@@ -184,11 +184,11 @@ function initTypingEffect() {
     if (isDeleting) {
       typingElement.textContent = currentRole.substring(0, charIndex - 1);
       charIndex--;
-      typingSpeed = 50;
+      typingSpeed = 40;
     } else {
       typingElement.textContent = currentRole.substring(0, charIndex + 1);
       charIndex++;
-      typingSpeed = 110;
+      typingSpeed = 90;
     }
 
     if (!isDeleting && charIndex === currentRole.length) {
@@ -294,14 +294,14 @@ function initClipboardAndContact() {
       const textToCopy = btn.getAttribute('data-copy');
       if (textToCopy) {
         navigator.clipboard.writeText(textToCopy).then(() => {
-          showToast(`Đã sao chép: ${textToCopy}`);
+          showToast(`Copied to clipboard: ${textToCopy}`);
           const originalIcon = btn.innerHTML;
           btn.innerHTML = '<i class="fa-solid fa-check" style="color: var(--accent-emerald);"></i>';
           setTimeout(() => {
             btn.innerHTML = originalIcon;
           }, 2000);
         }).catch(() => {
-          showToast('Không thể sao chép tự động, vui lòng thử lại!');
+          showToast('Failed to auto-copy, please select text manually!');
         });
       }
     });
@@ -317,12 +317,12 @@ function initClipboardAndContact() {
       const originalText = submitBtn.innerHTML;
       
       submitBtn.disabled = true;
-      submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Đang gửi...';
+      submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Transmitting...';
 
       setTimeout(() => {
-        submitBtn.innerHTML = '<i class="fa-solid fa-check"></i> Đã Gửi Thành Công!';
+        submitBtn.innerHTML = '<i class="fa-solid fa-check"></i> Message Dispatched!';
         submitBtn.style.background = 'var(--gradient-emerald)';
-        showToast('Cảm ơn bạn! Lời nhắn của bạn đã được gửi thành công.');
+        showToast('Thank you! Your message has been sent successfully.');
         contactForm.reset();
 
         setTimeout(() => {
@@ -370,7 +370,7 @@ function initFooterTime() {
 
   function updateTime() {
     const now = new Date();
-    const timeString = now.toLocaleTimeString('vi-VN', {
+    const timeString = now.toLocaleTimeString('en-US', {
       hour: '2-digit',
       minute: '2-digit',
       second: '2-digit',
