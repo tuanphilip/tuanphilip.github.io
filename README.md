@@ -6,9 +6,10 @@ Repository này chứa mã nguồn Landing Page Portfolio (`tuanphilip.github.io
 
 ## 📚 Technical Documentation & Strategy Kit
 
+* 📄 **[AI Engineer CV Anchor Project (6 Tuyển Dụng Tiêu Chuẩn)](docs/AI_ENGINEER_CV_PROJECT.md)**: Thiết kế dự án Dating Co-pilot & CRM chuẩn chỉnh 6 tiêu chí tuyển dụng AI Engineer (RAG Eval, Kafka, Agent Retry, Fine-tuning, ClickHouse Dashboard, A/B Testing Z-Test).
 * 📄 **[Profile Strategy & Service Matrix](docs/PROFILE_STRATEGY.md)**: Định vị năng lực, cấu trúc định giá, phân bổ dịch vụ chính (AI/Python) vs phụ (Headless WordPress/CMS).
 * 📄 **[Upwork Kit & Battle-Tested Proposals](docs/UPWORK_AND_PITCHING.md)**: Bộ Bio tiếng Anh chuẩn quốc tế + Templates proposal "No Fluff" tăng tỷ lệ chốt deal.
-* 📄 **[4 Core Case Studies & Proof of Works](docs/CASE_STUDIES.md)**: Chi tiết 4 case study thực chiến (SCIDEX, CX Agent Platform, Data Harvester, Headless LMS/Store).
+* 📄 **[4 Core Case Studies & Proof of Works](docs/CASE_STUDIES.md)**: Chi tiết các case study thực chiến (FlirtFlow AI, SCIDEX, CX Agent Platform, Data Harvester, Headless LMS/Store).
 
 ---
 
