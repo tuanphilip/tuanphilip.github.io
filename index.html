@@ -78,6 +78,7 @@
 
       <ul class="nav-links" id="nav-links">
         <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#demos" class="nav-link">Live Demos</a></li>
         <li><a href="#services" class="nav-link">Services</a></li>
         <li><a href="#projects" class="nav-link">Case Studies</a></li>
         <li><a href="#architecture" class="nav-link">Tech Stack</a></li>
@@ -127,13 +128,13 @@
           </p>
 
           <div class="hero-actions">
-            <a href="#projects" class="btn btn-primary">
-              <i class="fa-solid fa-terminal"></i>
-              <span>Explore Case Studies</span>
+            <a href="#demos" class="btn btn-primary">
+              <i class="fa-solid fa-play"></i>
+              <span>Explore Live Demos</span>
             </a>
-            <a href="#contact" class="btn btn-outline">
-              <i class="fa-regular fa-paper-plane"></i>
-              <span>Schedule Technical Call</span>
+            <a href="#projects" class="btn btn-outline">
+              <i class="fa-solid fa-terminal"></i>
+              <span>Case Studies</span>
             </a>
             <a href="https://github.com/tuanphilip" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
               <i class="fa-brands fa-github"></i>
@@ -294,6 +295,318 @@
             <span class="project-tag">GraphQL</span>
             <span class="project-tag">Redis</span>
             <span class="project-tag">TutorLMS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Interactive Live Demos (Robo Ecosystem)
+       ========================================================================== -->
+  <section class="section" id="demos">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">
+          <i class="fa-solid fa-bolt"></i>
+          Interactive Software Fleet
+        </span>
+        <h2 class="section-title">Live Production <span class="text-gradient">Demos</span></h2>
+        <p class="section-subtitle">
+          Test-drive fully functional web utilities running on Vercel and WebAssembly — real data operations, zero simulated mockups.
+        </p>
+      </div>
+
+      <!-- Demo Category Filters -->
+      <div class="demo-filters reveal">
+        <button class="demo-filter-btn active" data-filter="all">All Demos (9)</button>
+        <button class="demo-filter-btn" data-filter="ai">AI & Documents (3)</button>
+        <button class="demo-filter-btn" data-filter="devtools">DevTools & SaaS (3)</button>
+        <button class="demo-filter-btn" data-filter="wasm">In-Browser WASM (3)</button>
+      </div>
+
+      <!-- Demos Grid -->
+      <div class="demos-grid">
+        <!-- Demo 1: RoResume -->
+        <div class="demo-card reveal" data-category="ai">
+          <div class="project-thumb">
+            <img src="images/demos/roresume.webp" alt="RoResume Live Demo Preview" loading="lazy">
+            <span class="demo-live-badge"><span class="live-status-dot"></span> Live Demo</span>
+            <span class="project-badge">Career & AI</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">RoResume — Career & ATS Resume Studio</h3>
+            <p class="project-desc">
+              Production ATS resume & CV builder with real-time reactive preview, modular layout customization, and pixel-perfect PDF & Word export.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Vite</span>
+              <span class="project-tag">React 19</span>
+              <span class="project-tag">TanStack</span>
+              <span class="project-tag">Better-Auth</span>
+              <span class="project-tag">Tailwind</span>
+            </div>
+            <div class="project-links">
+              <a href="https://roresume.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <span>Launch Demo</span>
+              </a>
+              <a href="https://github.com/tuanphilip/roresume" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <i class="fa-brands fa-github"></i>
+                <span>Source</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Demo 2: RoDB -->
+        <div class="demo-card reveal" data-category="devtools">
+          <div class="project-thumb">
+            <img src="images/demos/rodb.webp" alt="RoDB Live Demo Preview" loading="lazy">
+            <span class="demo-live-badge"><span class="live-status-dot"></span> Live Demo</span>
+            <span class="project-badge">Database DevTool</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">RoDB — Database ERD & Visual SQL Studio</h3>
+            <p class="project-desc">
+              Interactive entity-relationship diagramming and database architect tool. Design schema tables, foreign keys, and export production DDL for PostgreSQL, MySQL, and SQLite.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">SVG Canvas</span>
+              <span class="project-tag">SQL Parser</span>
+              <span class="project-tag">PostgreSQL</span>
+              <span class="project-tag">Vite</span>
+            </div>
+            <div class="project-links">
+              <a href="https://rodb-rho.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <span>Launch Demo</span>
+              </a>
+              <a href="https://github.com/tuanphilip/rodb" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <i class="fa-brands fa-github"></i>
+                <span>Source</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Demo 3: RoWhisper -->
+        <div class="demo-card reveal" data-category="wasm">
+          <div class="project-thumb">
+            <img src="images/demos/rowhisper.webp" alt="RoWhisper Live Demo Preview" loading="lazy">
+            <span class="demo-live-badge"><span class="live-status-dot"></span> Live Demo</span>
+            <span class="project-badge">100% In-Browser WASM</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">RoWhisper — In-Browser Speech Transcriber</h3>
+            <p class="project-desc">
+              Serverless speech-to-text engine running OpenAI Whisper directly inside browser WebAssembly. Zero audio data sent to external servers with instant SRT/VTT export.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">WebAssembly</span>
+              <span class="project-tag">ONNX Web</span>
+              <span class="project-tag">Transformers.js</span>
+              <span class="project-tag">Zero-Backend</span>
+            </div>
+            <div class="project-links">
+              <a href="https://rowhisper.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <span>Launch Demo</span>
+              </a>
+              <a href="https://github.com/tuanphilip/rowhisper" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <i class="fa-brands fa-github"></i>
+                <span>Source</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Demo 4: RoMind -->
+        <div class="demo-card reveal" data-category="devtools">
+          <div class="project-thumb">
+            <img src="images/demos/romind.webp" alt="RoMind Live Demo Preview" loading="lazy">
+            <span class="demo-live-badge"><span class="live-status-dot"></span> Live Demo</span>
+            <span class="project-badge">Visual Architecture</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">RoMind — Dynamic MindMap & Concept Modeler</h3>
+            <p class="project-desc">
+              High-performance visual mind mapping and conceptual knowledge tree engine. Features tree layouts, fishbone diagrams, timeline views, and XMind import/export.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">HTML5 Canvas</span>
+              <span class="project-tag">SVG Rendering</span>
+              <span class="project-tag">XMind Parser</span>
+            </div>
+            <div class="project-links">
+              <a href="https://romind.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <span>Launch Demo</span>
+              </a>
+              <a href="https://github.com/tuanphilip/romind" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <i class="fa-brands fa-github"></i>
+                <span>Source</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Demo 5: RoInvoice -->
+        <div class="demo-card reveal" data-category="wasm">
+          <div class="project-thumb">
+            <img src="images/demos/roinvoice.webp" alt="RoInvoice Live Demo Preview" loading="lazy">
+            <span class="demo-live-badge"><span class="live-status-dot"></span> Live Demo</span>
+            <span class="project-badge">Financial SaaS Utility</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">RoInvoice — Modern Billing & PDF Engine</h3>
+            <p class="project-desc">
+              High-speed customizable invoice generator with real-time tax/discount calculations, signature canvas pad, multi-currency support, and instant PDF rendering.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Next.js</span>
+              <span class="project-tag">React</span>
+              <span class="project-tag">PDF Kit</span>
+              <span class="project-tag">Tailwind CSS</span>
+              <span class="project-tag">Client Store</span>
+            </div>
+            <div class="project-links">
+              <a href="https://roinvoice.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <span>Launch Demo</span>
+              </a>
+              <a href="https://github.com/tuanphilip/roinvoice" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <i class="fa-brands fa-github"></i>
+                <span>Source</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Demo 6: RoForm -->
+        <div class="demo-card reveal" data-category="devtools">
+          <div class="project-thumb">
+            <img src="images/demos/roform.webp" alt="RoForm Live Demo Preview" loading="lazy">
+            <span class="demo-live-badge"><span class="live-status-dot"></span> Live Demo</span>
+            <span class="project-badge">SaaS & Schema Builder</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">RoForm — Dynamic Drag & Drop Form Builder</h3>
+            <p class="project-desc">
+              Visual drag-and-drop form and survey builder with live validation preview, responsive viewport emulation, and automatic Zod/JSON schema export.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">shadcn/ui</span>
+              <span class="project-tag">Dnd Kit</span>
+              <span class="project-tag">Zod</span>
+              <span class="project-tag">Tailwind</span>
+            </div>
+            <div class="project-links">
+              <a href="https://roform-flax.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <span>Launch Demo</span>
+              </a>
+              <a href="https://github.com/tuanphilip/roform" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <i class="fa-brands fa-github"></i>
+                <span>Source</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Demo 7: RoSearch -->
+        <div class="demo-card reveal" data-category="ai">
+          <div class="project-thumb">
+            <img src="images/demos/rosearch.webp" alt="RoSearch Live Demo Preview" loading="lazy">
+            <span class="demo-live-badge"><span class="live-status-dot"></span> Live Demo</span>
+            <span class="project-badge">AI Systems & Perplexity UX</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">RoSearch — AI Deep Research & Answer Engine</h3>
+            <p class="project-desc">
+              Generative multi-source research engine providing cited answers, real-time web retrieval, knowledge graph extraction, and interactive generative UI widgets.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Next.js</span>
+              <span class="project-tag">Vercel AI SDK</span>
+              <span class="project-tag">FastAPI</span>
+              <span class="project-tag">Generative UI</span>
+            </div>
+            <div class="project-links">
+              <a href="https://rosearch-phi.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <span>Launch Demo</span>
+              </a>
+              <a href="https://github.com/tuanphilip/rosearch" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <i class="fa-brands fa-github"></i>
+                <span>Source</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Demo 8: RoboLogo -->
+        <div class="demo-card reveal" data-category="ai">
+          <div class="project-thumb">
+            <img src="images/demos/robologo.webp" alt="RoboLogo Live Demo Preview" loading="lazy">
+            <span class="demo-live-badge"><span class="live-status-dot"></span> Live Demo</span>
+            <span class="project-badge">Generative Media</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">RoboLogo — AI Prompt-to-Logo & Brand Creator</h3>
+            <p class="project-desc">
+              End-to-end brand identity generator creating company logos, color palettes, and typography presets from natural language prompts with vector SVG downloads.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Next.js</span>
+              <span class="project-tag">Diffusion AI</span>
+              <span class="project-tag">Vector SVG</span>
+              <span class="project-tag">Tailwind</span>
+            </div>
+            <div class="project-links">
+              <a href="https://logocreator-eta.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <span>Launch Demo</span>
+              </a>
+              <a href="https://github.com/tuanphilip/logocreator" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <i class="fa-brands fa-github"></i>
+                <span>Source</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Demo 9: RoBackground -->
+        <div class="demo-card reveal" data-category="wasm">
+          <div class="project-thumb">
+            <img src="images/demos/robg.webp" alt="RoBackground Live Demo Preview" loading="lazy">
+            <span class="demo-live-badge"><span class="live-status-dot"></span> Live Demo</span>
+            <span class="project-badge">Computer Vision WASM</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">RoBackground — AI In-Browser Background Eraser</h3>
+            <p class="project-desc">
+              Private, zero-upload background removal running local deep learning segmentation models inside WebAssembly & WebGPU with instant transparent PNG output.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Vue 3</span>
+              <span class="project-tag">WebGPU</span>
+              <span class="project-tag">ONNX Web</span>
+              <span class="project-tag">WASM</span>
+            </div>
+            <div class="project-links">
+              <a href="https://robgclean.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <span>Launch Demo</span>
+              </a>
+              <a href="https://github.com/tuanphilip/robg" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <i class="fa-brands fa-github"></i>
+                <span>Source</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
