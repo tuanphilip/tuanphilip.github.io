@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initTypingEffect();
   initCounterAnimation();
   initProjectFilters();
+  initDemoFilters();
   initClipboardAndContact();
   initFooterTime();
 });
@@ -264,6 +265,42 @@ function initProjectFilters() {
       const filterValue = btn.getAttribute('data-filter');
 
       projectCards.forEach(card => {
+        const category = card.getAttribute('data-category');
+        if (filterValue === 'all' || category === filterValue) {
+          card.style.display = 'flex';
+          setTimeout(() => {
+            card.style.opacity = '1';
+            card.style.transform = 'scale(1)';
+          }, 50);
+        } else {
+          card.style.opacity = '0';
+          card.style.transform = 'scale(0.95)';
+          setTimeout(() => {
+            card.style.display = 'none';
+          }, 300);
+        }
+      });
+    });
+  });
+}
+
+/* ==========================================================================
+   6.1. Interactive Live Demos Category Filtering
+   ========================================================================== */
+function initDemoFilters() {
+  const filterBtns = document.querySelectorAll('.demo-filter-btn');
+  const demoCards = document.querySelectorAll('.demo-card');
+
+  if (filterBtns.length === 0 || demoCards.length === 0) return;
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const filterValue = btn.getAttribute('data-filter');
+
+      demoCards.forEach(card => {
         const category = card.getAttribute('data-category');
         if (filterValue === 'all' || category === filterValue) {
           card.style.display = 'flex';
