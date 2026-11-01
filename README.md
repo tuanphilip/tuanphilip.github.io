@@ -16,5 +16,5 @@ Repository này chứa mã nguồn Landing Page Portfolio (`tuanphilip.github.io
 ## 🚀 Live Landing Page
 
 - **URL:** [https://tuanphilip.github.io](https://tuanphilip.github.io)
-- **Tech Stack:** Semantic HTML5, Vanilla JavaScript, Modern CSS3 (Glassmorphism & Bento Grid design).
-- **Core Focus:** AI Systems, RAG Pipelines, Web Automation, Rapid MVPs & High-Performance Headless CMS.
+- **Tech Stack:** Next.js 16, Tailwind CSS v4, shadcn/ui, Magic UI (Minimalist Bento Grid & Floating Dock).
+- **Core Focus:** Modern Full-Stack Web Apps, Clean UI Systems, Rapid MVPs (2–4 weeks), and Scalable Backend Architectures.
